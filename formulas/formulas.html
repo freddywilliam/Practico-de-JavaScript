@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULADORA DE AREA Y PERIMETRO</title>
+</head>
+<body>
+    <h1>
+        <b>ELIGE TU FIGURA</b><br><hr>
+    </h1>
+    <p>
+        
+        1 = Cuadrado    (lado)<br>
+        2 = Rectangulo  (base, altura)<br>
+        3 = Circulo     (radio)<br>
+        4 = Triangulo   (base, altura, lado)<br>
+        <hr><b>ELIGE</b><br>
+        <input type="text" id = "figura" /><hr>
+    </p>
+    <p id = "base">
+        <b>Base</b><br>
+        <input type="text" id = "valorBase" /><br>
+    </p>
+
+    <p id = "altura">
+        <b>Altura</b><br>
+        <input type="text" id = "valorAltura" /><br>
+    </p>
+
+    <p id = "lado">
+        <b>Lado</b><br>
+        <input type="text" id = "valorLado" /><br>
+    </p>
+
+    <p id = "valor">
+        <b>Radio</b><br>
+        <input type ="text" id = "valorRadio" /></br>
+    </p>
+
+    <p id = "respuesta"></p><hr>
+
+    <input type="button" id = "boton" value= "Enviar"/>
+
+    <script src="formulas.js"></script>
+</body>
+</html>
