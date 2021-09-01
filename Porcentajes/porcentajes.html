@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porcentajes</title>
+</head>
+<body>
+    <header>
+        <h1>CALCULADORA DE PORCENTAJES</h1><hr>
+
+    </header>
+
+    <section>
+        <form> 
+            <label>
+                <strong>PRECIO TOTAL</strong><br>
+                <input type="text" id="precio"   /><br>
+            </label>
+            
+            <label>
+                <strong>PORCENTAJE DE DESCUENTO</strong><br>
+                <input type="text" id="porcentaje" /><br>
+            </label>
+
+            <label>
+                <strong>CODIGO DE DESCUENTO</strong><br>
+                <input type="text" id="cod_descuento" /><br><hr>
+            </label>
+            
+            <button type="button" onclick="main()">
+                Enviar
+            </button><hr>
+
+            <label id="resultado_cupon"></label>
+
+            <label id="resultado_total">
+            </label>
+        </form>
+    </section>
+    
+
+
+
+    <script src ="porcentajes.js"></script>
+</body>
+</html>
